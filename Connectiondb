@@ -25,6 +25,7 @@ public class connectionDb {
 		pstate.setInt(1,e.getEmpId());
 		pstate.setString(2,e.getName());
 		pstate.setString(3,e.getAddr());
+
         int i=pstate.executeUpdate();
         if(i>0)
         {
