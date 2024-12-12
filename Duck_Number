@@ -1,0 +1,17 @@
+public class TestDuck {
+public static boolean checkNumber(int number) {
+while (number != 0) {
+if (number % 10 == 0)
+return true;
+number = number / 10;
+}
+return false;
+}
+public static void main(String args[]) {
+int no = 2001;
+if (checkNumber(no))
+System.out.println(no + " is a Duck number");
+else
+System.out.println(no + " is not a Duck number");
+}
+}
