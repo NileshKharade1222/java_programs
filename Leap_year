@@ -1,0 +1,14 @@
+import java.util.*;
+class Main {
+public static void main(String[] args) {
+  
+  System.out.println("leap year 2000 to 2030");
+  
+  for(int year = 2000; year<=2030; year++){
+      if((year% 400==0) || (year% 4==0 && year% 100!=0)){
+          System.out.println(year);
+      }
+  }
+}
+
+}
