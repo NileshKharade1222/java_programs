@@ -1,0 +1,18 @@
+public class LinearArrayExample {
+    public static void main(String[] args) {
+        int[] numbers = new int[5];
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+        numbers[3] = 40;
+        numbers[4] = 50;
+
+        System.out.println("Element 1: " + numbers[0]);
+        System.out.println("Element 2: " + numbers[1]);
+        System.out.println("Element 3: " + numbers[2]);
+        System.out.println("Element 4: " + numbers[3]);
+        System.out.println("Element 5: " + numbers[4]);
+        int sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
+        System.out.println("Sum: " + sum);
+    }
+}
